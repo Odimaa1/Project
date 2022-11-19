@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(205, 230, 204, 0.5);
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #FFFFFF;
+}
+header nav{
+    margin-left: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+header nav a{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #010101;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: #036B00;
+    text-decoration: underline;
+}
+section{
+    text-align: center;
+    background-image: url(./Assets/Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: auto;
+    height: 85vh;
+}
+section h1{
+    text-align: center;
+    font-family: 'Cambria';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 56px;
+    color: #CDE6CC;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+section p{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+main{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    background: rgba(205, 230, 204, 0.5);
+}
+main h1{
+    text-align: center;
+    font-family: 'Cambria';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #036B00;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+main p{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #010101;
+    padding-bottom: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #57AA55;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-clip-path: ellipse(53% 88% at 49% 88%);
+    clip-path: ellipse(53% 88% at 49% 88%);
+}
+footer p{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+footer a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+}
