@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(205, 230, 204, 0.5);
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #FFFFFF;
+    /* position: fixed; */
+}
+header nav{
+    margin-left: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+header nav a{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #010101;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: #036B00;
+    text-decoration: underline;
+}
+#menu,
+#close{
+    display: none;
+}
+section{
+    text-align: center;
+    background-image: url(./Assets/Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+section .home{
+    width: 100%;
+    margin: auto;
+}
+section h1{
+    text-align: center;
+    font-family: 'Cambria';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 56px;
+    color: #CDE6CC;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin: auto;
+}
+section p{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 78px;
+    width: 45% ;
+    margin: auto;
+    
+}
+main{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    background: rgba(205, 230, 204, 0.5);
+}
+main h1{
+    text-align: center;
+    font-family: 'Cambria';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #036B00;
+    padding-top: 30px;
+    padding-bottom: 15px;
+   
+}
+main p{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #010101;
+    padding-bottom: 30px;
+    width: 35%;
+    margin: auto;
+}
+footer{
+    background:rgba(205, 230, 204, 0.5) ;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #57AA55;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-clip-path: ellipse(53% 88% at 49% 88%);
+    clip-path: ellipse(53% 88% at 49% 88%);
+}
+ footer h6,
+ footer p{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+footer a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+}
+ footer img{
+    width: 24px;
+    height: 24px;
+}
+@media screen and (max-width: 1000px){
+    header{
+        padding: 5px 16px;
+        align-items: none;
+    }
+    header .logo{
+        width: 90%;
+
+    }
+    header .logo img{
+        width: 45%;
+        margin-right: 80px;
+    }
+    #menu{
+        display: block;
+        font-size: 23px;
+    }
+    #close{
+        font-size: 23px;
+    }
+    header nav{
+         margin-left: 0px;
+        display: none;
+        position: absolute;
+        background: rgba(205, 230, 204, 0.95);
+        height:auto;
+        width: 100vw;
+        left: 0;
+        right: 0; 
+        top: 3.4rem;
+        padding: 18.6px;
+        z-index: 9;
+        transition: right 1.8s;
+    }
+    header nav a{
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 43px;
+    }
+    section .home{
+        width: 80%;      
+    } 
+    section h1{
+        width: 100%;
+    }
+    section p{
+        width: 100%;
+    }
+    main p{
+        width: 100%;
+    }
+    footer .footer-content{
+        gap: 6px;
+    }
+    footer p{
+        display: none;
+    }
+}
